@@ -1,8 +1,8 @@
 pipeline {
     agent any
-    tools {
-        nodejs "NodeJS 22.x"
-    }
+    // tools {
+    //     nodejs "NodeJS 22.x"
+    // }
     stages {
         stage('Build') { 
             steps {
