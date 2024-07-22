@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        nodejs "NodeJS 22.5.1"
+        nodejs "NodeJS 22.x"
     }
     stages {
         stage('Build') { 
